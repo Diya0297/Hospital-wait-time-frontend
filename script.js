@@ -1,3 +1,4 @@
+
 const locations = [
     { number: 1, name: "Waterloo Walk-in-Clinic", address: "170 University Ave W", travel: "15 minutes", wait: "25 minutes" },
     { number: 2, name: "King Street Medical Centre", address: "1718 King St E", travel: "20 minutes", wait: "30 minutes" },
@@ -14,8 +15,8 @@ function createLocationCard(location) {
                 <h3>${location.name}</h3>
                 <p>${location.address}</p>
                 <div class="timing">
-                    <span>🚗 ${location.travel}</span>
-                    <span>⏳ ${location.wait}</span>
+                    <span><img src="assets/car-icon.webp" alt="Car icon" class="icon"> ${location.travel}</span>
+                    <span><img src="assets/clock-icon-lg.png" alt="Time icon" class="icon"> ${location.wait}</span>
                 </div>
             </div>
         </div>
