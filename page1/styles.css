@@ -152,3 +152,20 @@ hr.divider {
     border: 1px solid #ccc;  /* Set the line color */
     width: 100%;  /* Make the line span the full width */
 } 
+
+#map-container {
+    height: 800px;
+    width: 1000px;
+    overflow: hidden; /* This ensures the image doesn't overflow the container */
+    margin: 15px;
+    border-radius:10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+#map img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Makes sure the image fits inside without stretching */
+}
+
+  
